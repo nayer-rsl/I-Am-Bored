@@ -1,0 +1,21 @@
+extends layout
+
+block layout-content
+  div.container
+    h2.page-title Get an activity and share it with your friend 
+    div#acitivyContainer
+      img(src="/images/Emoji.png", alt="")
+      p#activity.activity
+      img(src="/images/Emoji.png", alt="")
+
+    button(type="submit")#get_activity.btn Get another activity
+
+    h3 Liked the activity? Share it with your friend. 
+
+    form(action="/", method="post" id="message_form" name="messageForm")
+      label(for="messageContent_label" id="messageContent_label")
+      input(type="text" id="messageContent" name="messageContent" value="")
+      label(for="recieverNumber_label" id="recieverNumber_label")
+      input(type="text" id="recieverNumber" name="recieverNumber")
+      input(type="submit" value="Send" id="submit")
+  

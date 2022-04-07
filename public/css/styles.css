@@ -1,0 +1,119 @@
+@import url('https:fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:#6874e0;
+  font-family: 'Muli' , sans-serif;
+  display:flex;
+  align-items: center;
+  height: 100vh;
+  margin:0;
+  flex-flow: column;
+}
+main{
+  font-family: 'Muli' , sans-serif;
+  display:flex;
+  align-items: center;
+  height: 100vh;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+
+}
+#acitivyContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+img{
+  width: 37px;
+  height: 34px;
+  align-self: center;
+
+}
+#site-name{
+  top: 0;
+  color:#fff;
+  padding-top: 40px;
+  font-size: 42px;
+  margin: 0;
+}
+.container{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1),
+  0,6px,6px rgba(0,0,0,0.1);
+  padding:50px 20px;
+  max-width:100%;
+  min-width:min-content;
+  text-align: center;
+}
+
+#activity{
+  font-size: 30px;
+  line-height: 40px;
+  margin: 50px 5px;
+  max-width:max-content;
+}
+h2,h3{
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  opacity:0.8;
+}
+h3{
+  margin: 20px;
+}
+#messageContent,#messageContent_label,#recieverNumber_label,#recieverNumber{
+  display: none;
+}
+button{
+  background-color:#686de0;
+  border:0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1),
+  0,6px,6px rgba(0,0,0,0.1);
+  color:#fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 14px 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+#submit{
+  background-color:#339DFF;
+  border:0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1),
+  0,6px,6px rgba(0,0,0,0.1);
+  color:#fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 14px 40px;
+  font-weight: bold;
+}
+p{
+  margin: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-weight: bold;
+}
+#submit:active{
+  transform:scale(0.98);
+}
+button:active{
+  transform:scale(0.98);
+}
+button:focus{
+  outline:0;
+}
+#submit:focus{
+  outline:0;
+}

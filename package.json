@@ -1,0 +1,24 @@
+{
+  "name": "attempt-2",
+  "version": "1.0.0",
+  "description": "a web app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
+  },
+  "author": "Nayer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bored": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pug": "^3.0.2",
+    "twilio": "^3.76.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "nodemon": "^2.0.15"
+  }
+}
