@@ -7,7 +7,7 @@ body{
   font-family: 'Muli' , sans-serif;
   display:flex;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   margin:0;
   flex-flow: column;
 }
@@ -15,7 +15,7 @@ main{
   font-family: 'Muli' , sans-serif;
   display:flex;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   margin:0;
 }
 a{
@@ -47,7 +47,7 @@ img{
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1),
   0,6px,6px rgba(0,0,0,0.1);
-  padding:50px 20px;
+  padding:50px 20px 5px 20px;
   max-width:100%;
   min-width:min-content;
   text-align: center;
@@ -69,8 +69,25 @@ h2,h3{
 h3{
   margin: 20px;
 }
-#messageContent,#messageContent_label,#recieverNumber_label,#recieverNumber{
+#messageContent,#messageContent_label{
   display: none;
+}
+#recieverNumber{
+  margin-bottom: 1rem;
+  padding: 14px 4px;
+  font-size: 1rem;
+
+}
+form{
+  display: flex;
+  flex-flow: column wrap;
+  max-width:max-content;
+  max-width:100%;
+  padding:5px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 button{
   background-color:#686de0;
@@ -84,7 +101,6 @@ button{
   padding: 14px 40px;
   font-weight: bold;
   margin-bottom: 20px;
-
 }
 
 #submit{
@@ -98,6 +114,7 @@ button{
   letter-spacing: 2px;
   padding: 14px 40px;
   font-weight: bold;
+  max-width: fit-content;
 }
 p{
   margin: 5px;

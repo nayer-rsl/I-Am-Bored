@@ -44,7 +44,7 @@ app.post('/', urlencodedParser, function(req,res){
     .create({
       body: req.body.messageContent,
       from: '+13186619730',
-      to: '+19058695157'
+      to: req.body.recieverNumber
     })
   .then(message => res.send('The message was sent.'));
   
