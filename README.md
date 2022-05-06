@@ -8,3 +8,9 @@ To run this project clone the project and run the following in the directory:
 npm i
 ```
 Then go to the Twillio API, create an account and create the .env file using your credentials.
+
+##Video
+
+
+https://user-images.githubusercontent.com/90394300/167219661-b0604797-368e-479f-b14a-a72da8b1e433.mp4
+
